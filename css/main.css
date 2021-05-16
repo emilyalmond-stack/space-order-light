@@ -1,0 +1,149 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/**** HEADER ****/
+header {
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images-icons/full-background.png');
+  height: 600px;
+  padding-top: 20px;
+}
+
+header h2 {
+    clear: both;
+    color: #789db3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+    padding-left: 40px;
+}
+
+nav {
+    float: right;
+    padding: 40px 20px;
+    padding-left: 50px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #b39266;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  text-align: center;
+}
+
+#about .full-width {
+  padding: 25px 0;
+}
+
+#about h2{
+  color: #789db3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  padding-left: 40px;
+  text-align: center;
+}
+
+#about p{
+  color: #b39266;
+  font-size:18px;
+  line-height:40px;
+  padding-left: 40px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/***** WORK *****/
+
+#work {
+  background-color: #fef4dc;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 40px 0;
+}
+
+#work h2{
+  color: #789db3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  padding-left: 40px;
+}
+
+#work h3{
+  color: #fef4dc;
+}
+
+#work p {
+  color: #b39266;
+  font-size:21px;
+  line-height:40px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+#work img {
+  padding-left: 0px;
+  border: 5px solid #def3ff;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  text-align: center;
+}
+
+#contact .full-width {
+  padding-top: 25px;
+}
+
+#contact p {
+  color: #b39266;
+  font-size:21px;
+  line-height:40px;
+  padding-left: 200px;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+#contact ul {
+    list-style-image: none;
+}
+
+#contact ul li {
+     display: inline-block;
+     padding-left: 100px;
+}
