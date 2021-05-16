@@ -123,7 +123,7 @@ nav ul li a {
 /***** CONTACT *****/
 
 #contact {
-  text-align: center;
+  text-align: left;
 }
 
 #contact .full-width {
@@ -134,7 +134,7 @@ nav ul li a {
   color: #b39266;
   font-size:21px;
   line-height:40px;
-  padding-left: 200px;
+  padding-left: 500px;
   padding-right: 50px;
   padding-top: 25px;
 }
@@ -145,5 +145,5 @@ nav ul li a {
 
 #contact ul li {
      display: inline-block;
-     padding-left: 100px;
+     padding-left: 350px;
 }
